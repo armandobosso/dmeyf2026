@@ -1,0 +1,243 @@
+Loading required package: data.table
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:base’:
+
+    %notin%
+
+Loading required package: lightgbm
+Loading required package: yaml
+Resume: ya hay 1 corridas en el acumulador
+###################################################################### 
+Experimento #12 — operador: armando 
+Semillas: 596027, 830099, 714481, 264169, 420479 
+Niveles : 1, 0.1, 0.4, 0.05, 0.01 
+Total   : 25 corridas
+Arranca : 2026-09-09 22:42:49 
+###################################################################### 
+
+======================================================================
+2026-09-09 22:42:49 | exp 91001 | training_pct 1 | semilla 596027
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 7 seg
+  dtrain: 779565 filas
+  grid: 52.2 min | ganador nl= 128 mdil= 2048 ff= 0.5 niter= 353 AUC= 0.93143 
+  final train: 0.8 min
+  >>> ganancia_suavizada_max = 95.2825 | envios = 2052 | total 53.3 min
+
+======================================================================
+2026-09-09 23:36:08 | exp 90101 | training_pct 0.1 | semilla 596027
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 84012 filas
+  grid: 12.8 min | ganador nl= 64 mdil= 256 ff= 0.5 niter= 264 AUC= 0.93184 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 95.12 | envios = 2080 | total 13.7 min
+
+======================================================================
+2026-09-09 23:49:48 | exp 90401 | training_pct 0.4 | semilla 596027
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 315454 filas
+  grid: 28.1 min | ganador nl= 64 mdil= 1024 ff= 0.8 niter= 285 AUC= 0.93206 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 95.415 | envios = 2169 | total 29 min
+
+======================================================================
+2026-09-10 00:18:50 | exp 90501 | training_pct 0.05 | semilla 596027
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 45047 filas
+  grid: 7.4 min | ganador nl= 64 mdil= 256 ff= 0.8 niter= 222 AUC= 0.9299 
+  final train: 0.6 min
+  >>> ganancia_suavizada_max = 94.5075 | envios = 2113 | total 8.1 min
+skip  | pct 0.01 | semilla 596027 | ya estaba
+
+======================================================================
+2026-09-10 00:26:56 | exp 91002 | training_pct 1 | semilla 830099
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 779565 filas
+  grid: 49.3 min | ganador nl= 64 mdil= 2048 ff= 0.5 niter= 273 AUC= 0.93133 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 96.225 | envios = 2309 | total 50.2 min
+
+======================================================================
+2026-09-10 01:17:08 | exp 90102 | training_pct 0.1 | semilla 830099
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 84016 filas
+  grid: 11.9 min | ganador nl= 64 mdil= 256 ff= 0.5 niter= 379 AUC= 0.93156 
+  final train: 0.9 min
+  >>> ganancia_suavizada_max = 95.65 | envios = 2299 | total 13 min
+
+======================================================================
+2026-09-10 01:30:08 | exp 90402 | training_pct 0.4 | semilla 830099
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 316054 filas
+  grid: 28.3 min | ganador nl= 256 mdil= 1024 ff= 0.5 niter= 254 AUC= 0.93235 
+  final train: 0.6 min
+  >>> ganancia_suavizada_max = 95.7275 | envios = 2197 | total 29.1 min
+
+======================================================================
+2026-09-10 01:59:15 | exp 90502 | training_pct 0.05 | semilla 830099
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 45198 filas
+  grid: 8 min | ganador nl= 64 mdil= 64 ff= 0.5 niter= 528 AUC= 0.93072 
+  final train: 1.2 min
+  >>> ganancia_suavizada_max = 96.785 | envios = 2087 | total 9.4 min
+
+======================================================================
+2026-09-10 02:08:39 | exp 90002 | training_pct 0.01 | semilla 830099
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 14453 filas
+  grid: 5 min | ganador nl= 64 mdil= 256 ff= 0.5 niter= 344 AUC= 0.9258 
+  final train: 0.8 min
+  >>> ganancia_suavizada_max = 95.7175 | envios = 2176 | total 6 min
+
+======================================================================
+2026-09-10 02:14:40 | exp 91003 | training_pct 1 | semilla 714481
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 779565 filas
+  grid: 50.9 min | ganador nl= 128 mdil= 2048 ff= 0.5 niter= 196 AUC= 0.93152 
+  final train: 0.5 min
+  >>> ganancia_suavizada_max = 94.135 | envios = 1997 | total 51.6 min
+
+======================================================================
+2026-09-10 03:06:14 | exp 90103 | training_pct 0.1 | semilla 714481
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 84174 filas
+  grid: 14.9 min | ganador nl= 384 mdil= 64 ff= 0.5 niter= 596 AUC= 0.93076 
+  final train: 1.3 min
+  >>> ganancia_suavizada_max = 92.8325 | envios = 1747 | total 16.4 min
+
+======================================================================
+2026-09-10 03:22:39 | exp 90403 | training_pct 0.4 | semilla 714481
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 314723 filas
+  grid: 29.8 min | ganador nl= 64 mdil= 1024 ff= 0.8 niter= 402 AUC= 0.93156 
+  final train: 0.9 min
+  >>> ganancia_suavizada_max = 93.325 | envios = 1816 | total 30.9 min
+
+======================================================================
+2026-09-10 03:53:32 | exp 90503 | training_pct 0.05 | semilla 714481
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 45474 filas
+  grid: 9.3 min | ganador nl= 64 mdil= 256 ff= 0.8 niter= 302 AUC= 0.92994 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 92.65 | envios = 1994 | total 10.2 min
+
+======================================================================
+2026-09-10 04:03:42 | exp 90003 | training_pct 0.01 | semilla 714481
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 14434 filas
+  grid: 4.7 min | ganador nl= 64 mdil= 64 ff= 0.5 niter= 397 AUC= 0.92697 
+  final train: 0.9 min
+  >>> ganancia_suavizada_max = 93.54 | envios = 1718 | total 5.8 min
+
+======================================================================
+2026-09-10 04:09:33 | exp 91004 | training_pct 1 | semilla 264169
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 779565 filas
+  grid: 49.7 min | ganador nl= 64 mdil= 2048 ff= 0.8 niter= 384 AUC= 0.93225 
+  final train: 0.9 min
+  >>> ganancia_suavizada_max = 93.7275 | envios = 2210 | total 50.7 min
+
+======================================================================
+2026-09-10 05:00:18 | exp 90104 | training_pct 0.1 | semilla 264169
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 84040 filas
+  grid: 14.7 min | ganador nl= 128 mdil= 1024 ff= 0.8 niter= 443 AUC= 0.93208 
+  final train: 1 min
+  >>> ganancia_suavizada_max = 93.44 | envios = 2234 | total 15.9 min
+
+======================================================================
+2026-09-10 05:16:13 | exp 90404 | training_pct 0.4 | semilla 264169
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 315212 filas
+  grid: 29.1 min | ganador nl= 64 mdil= 1024 ff= 0.8 niter= 347 AUC= 0.93268 
+  final train: 0.8 min
+  >>> ganancia_suavizada_max = 93.5225 | envios = 2407 | total 30.1 min
+
+======================================================================
+2026-09-10 05:46:17 | exp 90504 | training_pct 0.05 | semilla 264169
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 45198 filas
+  grid: 9.4 min | ganador nl= 64 mdil= 512 ff= 0.8 niter= 364 AUC= 0.93053 
+  final train: 0.9 min
+  >>> ganancia_suavizada_max = 93.6 | envios = 2185 | total 10.4 min
+
+======================================================================
+2026-09-10 05:56:40 | exp 90004 | training_pct 0.01 | semilla 264169
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 14199 filas
+  grid: 4.9 min | ganador nl= 64 mdil= 256 ff= 0.8 niter= 304 AUC= 0.92686 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 93.585 | envios = 2410 | total 5.8 min
+
+======================================================================
+2026-09-10 06:02:29 | exp 91005 | training_pct 1 | semilla 420479
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 779565 filas
+  grid: 50.5 min | ganador nl= 128 mdil= 2048 ff= 0.5 niter= 307 AUC= 0.93232 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 90.72 | envios = 1776 | total 51.4 min
+
+======================================================================
+2026-09-10 06:53:52 | exp 90105 | training_pct 0.1 | semilla 420479
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 83809 filas
+  grid: 13.8 min | ganador nl= 64 mdil= 256 ff= 0.5 niter= 329 AUC= 0.93164 
+  final train: 0.8 min
+  >>> ganancia_suavizada_max = 90.935 | envios = 1797 | total 14.8 min
+
+======================================================================
+2026-09-10 07:08:38 | exp 90405 | training_pct 0.4 | semilla 420479
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 315575 filas
+  grid: 27 min | ganador nl= 64 mdil= 512 ff= 0.5 niter= 251 AUC= 0.93193 
+  final train: 0.6 min
+  >>> ganancia_suavizada_max = 90.755 | envios = 2211 | total 27.8 min
+
+======================================================================
+2026-09-10 07:36:24 | exp 90505 | training_pct 0.05 | semilla 420479
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 44982 filas
+  grid: 8.4 min | ganador nl= 64 mdil= 64 ff= 0.8 niter= 283 AUC= 0.93088 
+  final train: 0.7 min
+  >>> ganancia_suavizada_max = 90.7325 | envios = 1849 | total 9.3 min
+
+======================================================================
+2026-09-10 07:45:39 | exp 90005 | training_pct 0.01 | semilla 420479
+  caché traía columnas derivadas, se eliminan: azar, fold_train 
+  dataset: 976925 x 274 | carga 5 seg
+  dtrain: 14367 filas
+  grid: 6 min | ganador nl= 64 mdil= 256 ff= 0.5 niter= 441 AUC= 0.92691 
+  final train: 1 min
+  >>> ganancia_suavizada_max = 91.985 | envios = 1815 | total 7.2 min
+There were 24 warnings (use warnings() to see them)
+
+######################################################################
+Fin: 2026-09-10 07:52:49 
+Corridas en esta sesion: 24 
+Tiempo total: 9.17 hs
+Acumulador: /content/buckets/b1/exp/acumulador_exp12_armando.csv 
+###################################################################### 
